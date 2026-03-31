@@ -12,6 +12,7 @@
         "@nestjs/core": "11.1.17",
         "@nestjs/common": "11.1.17",
         "@nestjs/platform-express": "11.1.17",
+        "@workspace/shared": "workspace:",
         "rxjs": "7.8.2",
         "reflect-metadata": "0.2.2"
     },
@@ -19,7 +20,6 @@
         "@tsconfig/node24": "^24.0.4",
         "@types/node": "^25.5.0",
         "@swc-node/register": "1.11.1",
-        "@workspace/shared": "workspace:",
         "typescript": "5.9.3"
     }
 }
