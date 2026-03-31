@@ -1,0 +1,13 @@
+{
+    "name": "@workspace/shared",
+    "private": true,
+    "type": "module",
+    "exports": {
+        ".": "./src/index.ts"
+    },
+    "devDependencies": {
+        "@tsconfig/node24": "^24.0.4",
+        "@types/node": "^25.5.0",
+        "typescript": "5.9.3"
+    }
+}

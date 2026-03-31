@@ -1,0 +1,25 @@
+{
+    "name": "api",
+    "private": true,
+    "type": "module",
+    "main": "dist/main.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/main.js",
+        "dev": "node --watch-path src --import @swc-node/register/esm-register --enable-source-maps src/main.ts"
+    },
+    "dependencies": {
+        "@nestjs/core": "11.1.17",
+        "@nestjs/common": "11.1.17",
+        "@nestjs/platform-express": "11.1.17",
+        "rxjs": "7.8.2",
+        "reflect-metadata": "0.2.2"
+    },
+    "devDependencies": {
+        "@tsconfig/node24": "^24.0.4",
+        "@types/node": "^25.5.0",
+        "@swc-node/register": "1.11.1",
+        "@workspace/shared": "workspace:",
+        "typescript": "5.9.3"
+    }
+}
